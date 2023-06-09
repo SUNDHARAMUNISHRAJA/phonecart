@@ -26,7 +26,7 @@ function App()
   
   const router = createBrowserRouter([
     {
-       path:"phonecart/",
+       path:"phonecart",
        element:<Home/>
     },
     {
