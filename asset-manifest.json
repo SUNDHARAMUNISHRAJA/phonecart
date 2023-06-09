@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/phonecart/static/css/main.507223c5.css",
+    "main.js": "/phonecart/static/js/main.b5c530d4.js",
+    "static/js/787.c631537d.chunk.js": "/phonecart/static/js/787.c631537d.chunk.js",
+    "static/media/logo.svg": "/phonecart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/phonecart/index.html",
+    "main.507223c5.css.map": "/phonecart/static/css/main.507223c5.css.map",
+    "main.b5c530d4.js.map": "/phonecart/static/js/main.b5c530d4.js.map",
+    "787.c631537d.chunk.js.map": "/phonecart/static/js/787.c631537d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.507223c5.css",
+    "static/js/main.b5c530d4.js"
+  ]
+}
