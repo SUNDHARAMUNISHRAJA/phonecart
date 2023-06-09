@@ -76,7 +76,7 @@ function Register()
                  <Grid paddingTop={"20px"}>
                  <Button style={{backgroundColor:"#00FFFF",borderRadius:"4px",color:"#000"}} onClick={register}>REGISTER</Button>
                  </Grid>
-                 <p style={{cursor:"pointer"}}>Already registered with us <Link to="phonecart/login" >click me</Link>  </p>
+                 <p style={{cursor:"pointer"}}>Already registered with us <Link to="/phonecart/login" >click me</Link>  </p>
                 </FormGroup>
                 </Box>
         </Card>

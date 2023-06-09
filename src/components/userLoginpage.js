@@ -91,7 +91,7 @@ function Login()
               <Button style={{backgroundColor:"#00FFFF",borderRadius:"4px",color:"#000"}} onClick={(e)=>handlesubmit(e)} >LOGIN</Button>
               {/* </Link>     */}
                  </Grid>
-                 <p>Still not registered with us ? <Link to="phonecart/register">Click me</Link></p>
+                 <p>Still not registered with us ? <Link to="/phonecart/register">Click me</Link></p>
                 </FormGroup>
                 </Box>
         </Card>
