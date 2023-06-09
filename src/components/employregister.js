@@ -57,7 +57,7 @@ function EmpRegister()
                  <Grid paddingTop={"20px"}>
                 <Link to="emplogin/EmpHome"><Button style={{backgroundColor:"#00FFFF",borderRadius:"4px",color:"#000"}}>REGISTER</Button></Link> 
                  </Grid>
-                 <p style={{cursor:"pointer"}}>Already registered with us <Link to="/emplogin" >click me</Link>  </p>
+                 <p style={{cursor:"pointer"}}>Already registered with us <Link to="/phonecart/emplogin" >click me</Link>  </p>
                 </FormGroup>
                 </Box>
         </Card>
