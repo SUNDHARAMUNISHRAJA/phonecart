@@ -108,7 +108,7 @@ localStorage.setItem("cart",JSON.stringify(cart));
             <Button color="inherit" sx={{fontSize:"20px",color:"#FFF"}}>Home</Button>
          <Link to="cart" state={{cart:cart}} >  <Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Cart</Button></Link>
          <Link to="orders"><Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Orders</Button></Link>
-        <Link to="/"><Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Logout</Button></Link>
+        <Link to="/phonecart"><Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Logout</Button></Link>
           </Stack>
         </Toolbar>
     </AppBar>

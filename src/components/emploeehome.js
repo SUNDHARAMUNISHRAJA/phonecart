@@ -21,7 +21,7 @@ constructor(props)
   this.state={
     item:JSON.parse(localStorage.getItem("items")),
   }
-
+}
 render()
 { 
     const Rows=()=>
@@ -80,7 +80,6 @@ var arr=arr1[0].concat(arr1[1]);
     </Box>
     </Box>
     </Grid>);
-}
 }
 }
 export default EmpHome;

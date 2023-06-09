@@ -38,7 +38,7 @@ function Register()
   }
     return(
         <div>
-       <Link to="/" ><Button style={{backgroundColor:"#FFF",borderRadius:"5px",padding:"5px",color:"#000" }}>Home</Button></Link> 
+       <Link to="/phonecart" ><Button style={{backgroundColor:"#FFF",borderRadius:"5px",padding:"5px",color:"#000" }}>Home</Button></Link> 
         <Grid marginLeft={"32%"} marginTop={"20px"}height={"400px"} width={"400px"}> 
           
            <center>
@@ -76,7 +76,7 @@ function Register()
                  <Grid paddingTop={"20px"}>
                  <Button style={{backgroundColor:"#00FFFF",borderRadius:"4px",color:"#000"}} onClick={register}>REGISTER</Button>
                  </Grid>
-                 <p style={{cursor:"pointer"}}>Already registered with us <Link to="/login" >click me</Link>  </p>
+                 <p style={{cursor:"pointer"}}>Already registered with us <Link to="phonecart/login" >click me</Link>  </p>
                 </FormGroup>
                 </Box>
         </Card>

@@ -43,10 +43,10 @@ const user=useSelector(selectUser);
         <Toolbar>
           <Typography variant="h3"sx={{flexGrow:1}} >SHOPCART</Typography>
           <Stack direction="row" spacing={3}>
-          <Link to="/login/home">  <Button color="inherit" sx={{fontSize:"20px",color:"#FFF"}}>Home </Button></Link>
-          <Link to="/login/home/cart"><Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Cart</Button></Link> 
-          <Link to="/login/home/orders">  <Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Orders</Button></Link> 
-            <Link to="/" >  <Button color="inherit"sx={{fontSize:"20px",color:"#FFF" }}>Logout</Button></Link>
+          <Link to="/phonecart/login/home">  <Button color="inherit" sx={{fontSize:"20px",color:"#FFF"}}>Home </Button></Link>
+          <Link to="/phonecart/login/home/cart"><Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Cart</Button></Link> 
+          <Link to="/phonecart/login/home/orders">  <Button color="inherit"sx={{fontSize:"20px",color:"#FFF"}}>Orders</Button></Link> 
+            <Link to="/phonecart" >  <Button color="inherit"sx={{fontSize:"20px",color:"#FFF" }}>Logout</Button></Link>
           </Stack>
         </Toolbar>
     </AppBar>

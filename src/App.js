@@ -26,24 +26,23 @@ function App()
   
   const router = createBrowserRouter([
     {
-       path:"/",
+       path:"phonecart/",
        element:<Home/>
     },
     {
-   
-      path:"login",
+      path:"phonecart/login",
       element:<Login/>
     },
     {
-      path:"emplogin",
+      path:"phonecart/emplogin",
       element:<EmpLogin/>
     },
     {
-      path:"login/register",
+      path:"phonecart/login/register",
       element:<Register/>
     },
     {
-      path:"emplogin/empregister",
+      path:"phonecart/emplogin/empregister",
       element:<EmpRegister/>
     }
     //,
@@ -53,16 +52,16 @@ function App()
     // }
     ,
     {
-      path:"login/Home",
+      path:"phonecart/login/Home",
       element:<UserHome1/>    }
     ,
     {
-      path:"login/Home/cart",
+      path:"phonecart/login/Home/cart",
       element:<UserCart1/>
     }
       ,
     {
-      path:"login/Home/orders",
+      path:"phonecart/login/Home/orders",
       element:<UserOrder1/>
     }  
     // ,
@@ -77,12 +76,12 @@ function App()
     // }  
     ,
     {
-      path:"emplogin/emphome",
+      path:"phonecart/emplogin/emphome",
       element:<EmpHome/>
     }
     ,
     {
-      path:"emphome/sales",
+      path:"phonecart/emphome/sales",
       element:<EmpSales/>
     }
   

@@ -56,7 +56,7 @@ function Login()
     return(
        <div>
         {/* <p>{change}</p> */}
-           <Link to="/" ><Button style={{backgroundColor:"#FFF",borderRadius:"5px",padding:"5px",color:"#000" }}>Home</Button></Link> 
+           <Link to="/phonecart" ><Button style={{backgroundColor:"#FFF",borderRadius:"5px",padding:"5px",color:"#000" }}>Home</Button></Link> 
         <Grid marginLeft={"32%"} marginTop={"100px"}height={"400px"} width={"400px"}> 
           
   <center>
@@ -91,7 +91,7 @@ function Login()
               <Button style={{backgroundColor:"#00FFFF",borderRadius:"4px",color:"#000"}} onClick={(e)=>handlesubmit(e)} >LOGIN</Button>
               {/* </Link>     */}
                  </Grid>
-                 <p>Still not registered with us ? <Link to="register">Click me</Link></p>
+                 <p>Still not registered with us ? <Link to="phonecart/register">Click me</Link></p>
                 </FormGroup>
                 </Box>
         </Card>
@@ -99,8 +99,8 @@ function Login()
       </center>
    
         </Grid>
-      <p>{name}</p>
-      <p>{password}</p>
+      {/* <p>{name}</p>
+      <p>{password}</p> */}
         </div>
 
     );
